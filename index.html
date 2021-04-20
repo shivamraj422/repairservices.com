@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<section class="header">
+		<nav>
+			<a href="index.html"><img src=""></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hidemenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="#our">OUR EXPERTISE</a></li>
+					<li><a href="suppy.html">SUPPLY CHAIN</a></li>
+					<li><a href="">OUR STORE</a></li>
+					<li><a href="suppy.html #office">OFFICE LOCATIONS</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showmenu()"></i>
+		</nav>
+		<div class="text-box">
+			<h1>REPAIR <br> SERVICES</h1>
+			<p>COMPLETE PEACE OF MIND FOR MOST OF YOUR PERIPHERALS</p>
+			<a href="" class="btn">VIEW STORE</a>&nbsp;&nbsp;&nbsp;
+			<a href="suppy.html #office" class="btn">CONTACT US</a>
+		</div>
+	</section>
+	<!------our expertise------>
+	<section class="course">
+		<h1 id="our">OUR EXPERTISE</h1>
+		<div class="row">
+			<div class="course-col">
+				<h3><i class="fa fa-2x fa-laptop"></i>&nbsp;LAPTOP REPAIRING</h3>
+				<p>We service laptops of a range of brands from Acer, Asus, HP/Compaq, Dell, Lenovo, Toshiba, iBall to Micromax […]</p>
+			</div>
+			<div class="course-col">
+				<h3><i class="fa fa-2x fa-desktop"></i>&nbsp;DESKTOP REPAIRING</h3>
+				<p>Our engineers are well versed with troubleshooting Windows and Linus systems right from OS to applications […]</p>
+			</div>
+			<div class="course-col">
+				<h3><i class="fa fa-2x fa-print"></i>&nbsp;PRINTER REPAIRING</h3>
+				<p>Fixing printer problems is quite specific. We have experience in troubleshooting HP printers mostly on Windows OS […]</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="course-col">
+				<h3><i class="fa fa-2x fa-microchip"></i>&nbsp;MOTHERBOARD REPAIRING</h3>
+				<p>We examine most of the components: processor, north/south bridge, fans, IDEs, bios, sockets etc. to find root cause […]</p>
+			</div>
+			<div class="course-col">
+				<h3><i class="fa fa-2x fa-sliders"></i>&nbsp;NEW DESKTOP ASSEMBLING</h3>
+				<p>It is always challenging to keep yourself updated with newer components for faster and efficient assembly results […]</p>
+			</div>
+			<div class="course-col">
+				<h3><i class="fa fa-2x fa-camera"></i>&nbsp;CCTV SETUP</h3>
+				<p>Surveillance system installation is very crucial. Study of needs, cameras position, recording device, monitor setup etc […]</p>
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+
+<!--------foooter--------------------->
+	<section class="Footer">
+		<h4>About Us</h4>
+		<p>The quick brown fox jumps over the lazy dog.  The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.<br>  The quick brown fox jumps over the lazy dog.  The quick brown fox jumps over the lazy dog.</p>
+		<div class="icons">
+			<i class="fa fa-facebook"></i>
+			<i class="fa fa-twitter"></i>
+			<i class="fa fa-instagram"></i>
+			<i class="fa fa-linkedin"></i>
+		</div>
+		<p>Made With <i class="fa fa-heart-o"></i> By Shivam Kumar</p>
+	</section>
+
+	<script type="text/javascript">
+		var navLinks=document.getElementById("navLinks");
+
+		function showmenu(){
+			navLinks.style.right= "0";
+		}
+		function hidemenu(){
+			navLinks.style.right= "-200px";
+		}
+	</script>
+</body>
+</html>
